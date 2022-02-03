@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143648AB27AC0C480032AB10 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143648AA27AC0C480032AB10 /* HomeScreen.swift */; };
+		143648AD27AC0CF50032AB10 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143648AC27AC0CF50032AB10 /* UserProfile.swift */; };
+		143648AF27AC0E380032AB10 /* FlightBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143648AE27AC0E380032AB10 /* FlightBoard.swift */; };
+		143648B127AC217B0032AB10 /* FlightRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143648B027AC217B0032AB10 /* FlightRow.swift */; };
+		143648B327AC23950032AB10 /* FlightBoardInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143648B227AC23950032AB10 /* FlightBoardInformation.swift */; };
+		A853300F248BCEB000EA1883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853300E248BCEB000EA1883 /* AppDelegate.swift */; };
+		A8533011248BCEB000EA1883 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8533010248BCEB000EA1883 /* SceneDelegate.swift */; };
+		A8533013248BCEB000EA1883 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8533012248BCEB000EA1883 /* ContentView.swift */; };
+		A8533015248BCEB100EA1883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8533014248BCEB100EA1883 /* Assets.xcassets */; };
+		A8533018248BCEB100EA1883 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8533017248BCEB100EA1883 /* Preview Assets.xcassets */; };
+		A853301B248BCEB100EA1883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8533019248BCEB100EA1883 /* LaunchScreen.storyboard */; };
+		A8533027248BD1A600EA1883 /* FlightInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8533024248BD1A600EA1883 /* FlightInformation.swift */; };
+		A8533028248BD1A600EA1883 /* FlightHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8533025248BD1A600EA1883 /* FlightHistory.swift */; };
+		A8E8F24A27A7133600EFEE43 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8F24527A7133600EFEE43 /* TimelineTableViewCell.swift */; };
+		A8E8F24B27A7133600EFEE43 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8F24627A7133600EFEE43 /* Timeline.swift */; };
+		A8E8F24C27A7133600EFEE43 /* TimelinePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8F24827A7133600EFEE43 /* TimelinePoint.swift */; };
+		A8E8F24D27A7133600EFEE43 /* TimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E8F24927A7133600EFEE43 /* TimelineTableViewCell.xib */; };
+		A8E8F24F27A7139B00EFEE43 /* TimeLineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8F24E27A7139B00EFEE43 /* TimeLineInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		143648AA27AC0C480032AB10 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		143648AC27AC0CF50032AB10 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		143648AE27AC0E380032AB10 /* FlightBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBoard.swift; sourceTree = "<group>"; };
+		143648B027AC217B0032AB10 /* FlightRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRow.swift; sourceTree = "<group>"; };
+		143648B227AC23950032AB10 /* FlightBoardInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBoardInformation.swift; sourceTree = "<group>"; };
+		A853300B248BCEB000EA1883 /* FlightTimeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightTimeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A853300E248BCEB000EA1883 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8533010248BCEB000EA1883 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8533012248BCEB000EA1883 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8533014248BCEB100EA1883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8533017248BCEB100EA1883 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A853301A248BCEB100EA1883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A853301C248BCEB100EA1883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8533024248BD1A600EA1883 /* FlightInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInformation.swift; sourceTree = "<group>"; };
+		A8533025248BD1A600EA1883 /* FlightHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightHistory.swift; sourceTree = "<group>"; };
+		A8E8F24527A7133600EFEE43 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewCell.swift; sourceTree = "<group>"; };
+		A8E8F24627A7133600EFEE43 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		A8E8F24727A7133600EFEE43 /* TimelineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineTableViewCell.h; sourceTree = "<group>"; };
+		A8E8F24827A7133600EFEE43 /* TimelinePoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelinePoint.swift; sourceTree = "<group>"; };
+		A8E8F24927A7133600EFEE43 /* TimelineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineTableViewCell.xib; sourceTree = "<group>"; };
+		A8E8F24E27A7139B00EFEE43 /* TimeLineInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8533008248BCEB000EA1883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8533002248BCEB000EA1883 = {
+			isa = PBXGroup;
+			children = (
+				A853300D248BCEB000EA1883 /* FlightTimeline */,
+				A853300C248BCEB000EA1883 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A853300C248BCEB000EA1883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A853300B248BCEB000EA1883 /* FlightTimeline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A853300D248BCEB000EA1883 /* FlightTimeline */ = {
+			isa = PBXGroup;
+			children = (
+				A8E8F24427A7133600EFEE43 /* TimelineTableViewCell */,
+				A8533022248BD18900EA1883 /* Models */,
+				A853300E248BCEB000EA1883 /* AppDelegate.swift */,
+				A8533010248BCEB000EA1883 /* SceneDelegate.swift */,
+				A8533012248BCEB000EA1883 /* ContentView.swift */,
+				143648AE27AC0E380032AB10 /* FlightBoard.swift */,
+				143648B227AC23950032AB10 /* FlightBoardInformation.swift */,
+				143648AA27AC0C480032AB10 /* HomeScreen.swift */,
+				143648B027AC217B0032AB10 /* FlightRow.swift */,
+				143648AC27AC0CF50032AB10 /* UserProfile.swift */,
+				A8E8F24E27A7139B00EFEE43 /* TimeLineInfo.swift */,
+				A8533014248BCEB100EA1883 /* Assets.xcassets */,
+				A8533019248BCEB100EA1883 /* LaunchScreen.storyboard */,
+				A853301C248BCEB100EA1883 /* Info.plist */,
+				A8533016248BCEB100EA1883 /* Preview Content */,
+			);
+			path = FlightTimeline;
+			sourceTree = "<group>";
+		};
+		A8533016248BCEB100EA1883 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A8533017248BCEB100EA1883 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8533022248BD18900EA1883 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8533025248BD1A600EA1883 /* FlightHistory.swift */,
+				A8533024248BD1A600EA1883 /* FlightInformation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8E8F24427A7133600EFEE43 /* TimelineTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A8E8F24527A7133600EFEE43 /* TimelineTableViewCell.swift */,
+				A8E8F24627A7133600EFEE43 /* Timeline.swift */,
+				A8E8F24727A7133600EFEE43 /* TimelineTableViewCell.h */,
+				A8E8F24827A7133600EFEE43 /* TimelinePoint.swift */,
+				A8E8F24927A7133600EFEE43 /* TimelineTableViewCell.xib */,
+			);
+			path = TimelineTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A853300A248BCEB000EA1883 /* FlightTimeline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A853301F248BCEB100EA1883 /* Build configuration list for PBXNativeTarget "FlightTimeline" */;
+			buildPhases = (
+				A8533007248BCEB000EA1883 /* Sources */,
+				A8533008248BCEB000EA1883 /* Frameworks */,
+				A8533009248BCEB000EA1883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightTimeline;
+			productName = FlightTimeline;
+			productReference = A853300B248BCEB000EA1883 /* FlightTimeline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8533003248BCEB000EA1883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Alexey Efimov";
+				TargetAttributes = {
+					A853300A248BCEB000EA1883 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = A8533006248BCEB000EA1883 /* Build configuration list for PBXProject "FlightTimeline" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8533002248BCEB000EA1883;
+			productRefGroup = A853300C248BCEB000EA1883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A853300A248BCEB000EA1883 /* FlightTimeline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8533009248BCEB000EA1883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E8F24D27A7133600EFEE43 /* TimelineTableViewCell.xib in Resources */,
+				A853301B248BCEB100EA1883 /* LaunchScreen.storyboard in Resources */,
+				A8533018248BCEB100EA1883 /* Preview Assets.xcassets in Resources */,
+				A8533015248BCEB100EA1883 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8533007248BCEB000EA1883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A853300F248BCEB000EA1883 /* AppDelegate.swift in Sources */,
+				143648B327AC23950032AB10 /* FlightBoardInformation.swift in Sources */,
+				A8E8F24B27A7133600EFEE43 /* Timeline.swift in Sources */,
+				143648B127AC217B0032AB10 /* FlightRow.swift in Sources */,
+				A8533011248BCEB000EA1883 /* SceneDelegate.swift in Sources */,
+				A8E8F24F27A7139B00EFEE43 /* TimeLineInfo.swift in Sources */,
+				A8533027248BD1A600EA1883 /* FlightInformation.swift in Sources */,
+				143648AD27AC0CF50032AB10 /* UserProfile.swift in Sources */,
+				143648AF27AC0E380032AB10 /* FlightBoard.swift in Sources */,
+				A8533028248BD1A600EA1883 /* FlightHistory.swift in Sources */,
+				143648AB27AC0C480032AB10 /* HomeScreen.swift in Sources */,
+				A8E8F24A27A7133600EFEE43 /* TimelineTableViewCell.swift in Sources */,
+				A8533013248BCEB000EA1883 /* ContentView.swift in Sources */,
+				A8E8F24C27A7133600EFEE43 /* TimelinePoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8533019248BCEB100EA1883 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A853301A248BCEB100EA1883 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A853301D248BCEB100EA1883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A853301E248BCEB100EA1883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8533020248BCEB100EA1883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FlightTimeline/Preview Content\"";
+				DEVELOPMENT_TEAM = GBTTU32HS2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FlightTimeline/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.FlightTimeline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8533021248BCEB100EA1883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FlightTimeline/Preview Content\"";
+				DEVELOPMENT_TEAM = GBTTU32HS2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FlightTimeline/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.FlightTimeline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8533006248BCEB000EA1883 /* Build configuration list for PBXProject "FlightTimeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A853301D248BCEB100EA1883 /* Debug */,
+				A853301E248BCEB100EA1883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A853301F248BCEB100EA1883 /* Build configuration list for PBXNativeTarget "FlightTimeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8533020248BCEB100EA1883 /* Debug */,
+				A8533021248BCEB100EA1883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8533003248BCEB000EA1883 /* Project object */;
+}
